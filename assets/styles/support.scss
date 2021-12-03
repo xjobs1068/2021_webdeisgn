@@ -1,0 +1,56 @@
+@import "_common";
+
+header.hero {
+    background-image: url(/assets/images/support-hero.jpg);
+}
+
+main {
+    padding: 84px 0 120px;
+
+    h1 {
+        font-size: 32px;
+        font-weight: 500;
+        margin: 0 0 40px;
+    }
+
+    .accordian-list {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        .accordian-item {
+            .list-head {
+                cursor: pointer;
+                padding: 25px 12px;
+                border-bottom: solid 1px #ededf2;
+                font-size: 18px;
+                color: #222;
+            }
+
+            &.active {
+                .list-head {
+                    font-weight: 500;
+                }
+                .list-body {
+                    padding: 16px;
+                }
+            }
+
+            .list-head .date {
+                float: right;
+                font-weight: normal;
+            }
+
+            .list-body {
+                font-size: 16px;
+                color: #202429;
+                line-height: 28px;
+                background-color: #fafafc;
+                max-height: 0;
+                box-sizing: border-box;
+                overflow: hidden;
+                padding: 0;
+                transition: all 0.5s;
+            }
+        }
+    }
+}
