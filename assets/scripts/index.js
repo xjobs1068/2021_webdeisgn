@@ -42,7 +42,7 @@ const swiperCarousel = new Swiper(".carousel-swiper", {
     },
 });
 
-const colaYears = [1899, 1906, 1915, 1916, 1961, 1993, 2007];
+const colaYears = [1899, 1906, 1915, 1916, 1950, 1961, 1993, 2007];
 const swiperStory = new Swiper(".story-swiper", {
     loop: true,
     effect: "fade",
