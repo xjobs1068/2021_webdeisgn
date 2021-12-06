@@ -258,6 +258,7 @@ header.hero {
   color: #fff;
   line-height: 1.6;
   word-break: break-all;
+  margin: 0;
 }
 
 .product-container .card-list .card-item .product-box-heading-sub {
@@ -265,6 +266,7 @@ header.hero {
   color: #fff;
   line-height: 1.6;
   word-break: break-all;
+  margin: 0;
 }
 
 .detail-container header {
