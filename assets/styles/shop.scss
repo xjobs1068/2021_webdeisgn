@@ -67,6 +67,10 @@ main {
             color: #8f8f91;
             font-size: 14px;
 
+            &:hover{
+                color: #d63b37;
+            }
+
             span {
                 cursor: pointer;
             }
