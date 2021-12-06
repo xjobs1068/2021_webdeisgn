@@ -263,6 +263,11 @@ main.campaign-container .card-list .card-item .card-content p.desc {
   margin: 0;
   font-size: 12px;
   color: #666;
+  word-wrap: break-word;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 main.campaign-container .card-list .card-item .card-content p.date {
