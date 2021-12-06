@@ -261,14 +261,6 @@ header.hero {
   margin: 0;
 }
 
-.product-container .card-list .card-item .product-box-heading-sub {
-  font-size: 16px;
-  color: #fff;
-  line-height: 1.6;
-  word-break: break-all;
-  margin: 0;
-}
-
 .detail-container header {
   position: relative;
   height: 530px;
