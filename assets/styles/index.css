@@ -292,28 +292,6 @@ main > section[class$="-container"] .card-list {
           justify-content: space-between;
 }
 
-main > section[class$="-container"] .card-list .card-item {
-  display: block;
-  background-color: #fff;
-  border-radius: 16px;
-  overflow: hidden;
-  -webkit-transition: -webkit-transform 0.5s;
-  transition: -webkit-transform 0.5s;
-  transition: transform 0.5s;
-  transition: transform 0.5s, -webkit-transform 0.5s;
-  -webkit-box-shadow: 0 9px 10px 0 rgba(0, 0, 0, 0.2);
-          box-shadow: 0 9px 10px 0 rgba(0, 0, 0, 0.2);
-}
-
-main > section[class$="-container"] .card-list .card-item:first-child {
-  margin-left: 0;
-}
-
-main > section[class$="-container"] .card-list .card-item:hover {
-  -webkit-transform: translateY(-5px);
-          transform: translateY(-5px);
-}
-
 main > section[class$="-container"] .card-list .product-box-top {
   width: 100%;
   padding: 20px 20px 0;
@@ -378,6 +356,29 @@ main > section[class$="-container"] .card-list i.fas.fa-arrow-circle-right {
   color: white;
   text-align: right;
   font-size: 24px;
+}
+
+main > section[class$="-container"] .card-list .card-item {
+  position: relative;
+  display: block;
+  background-color: #fff;
+  border-radius: 16px;
+  overflow: hidden;
+  -webkit-transition: -webkit-transform 0.5s;
+  transition: -webkit-transform 0.5s;
+  transition: transform 0.5s;
+  transition: transform 0.5s, -webkit-transform 0.5s;
+  -webkit-box-shadow: 0 9px 10px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 9px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+main > section[class$="-container"] .card-list .card-item:first-child {
+  margin-left: 0;
+}
+
+main > section[class$="-container"] .card-list .card-item:hover {
+  -webkit-transform: translateY(-5px);
+          transform: translateY(-5px);
 }
 
 main > .story-container {
