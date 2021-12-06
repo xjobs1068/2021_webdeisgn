@@ -17,6 +17,17 @@ header.hero {
         display: flex;
         justify-content: space-between;
 
+        .card-item {
+            position: relative;
+            display: block;
+            background-color: #fff;
+            border-radius: 16px;
+            overflow: hidden;
+            transition: transform 0.5s;
+            box-shadow: 0 9px 10px 0 rgba(0, 0, 0, 0.2);
+
+
+
         .product-box-top {
             width: 100%;
             padding: 20px 20px 0;
@@ -79,14 +90,6 @@ header.hero {
             font-size: 24px;
         }
 
-        .card-item {
-            position: relative;
-            display: block;
-            background-color: #fff;
-            border-radius: 16px;
-            overflow: hidden;
-            transition: transform 0.5s;
-            box-shadow: 0 9px 10px 0 rgba(0, 0, 0, 0.2);
 
             &:first-child {
                 margin-left: 0;
