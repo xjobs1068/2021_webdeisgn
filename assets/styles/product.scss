@@ -73,12 +73,14 @@ header.hero {
                 -webkit-box-align: center;
                 -ms-flex-align: center;
                 align-items: center;
+                margin: 0 20px;
+                justify-content: space-between;
             }
 
             .product-box{
                 display: contents;
             }
-            
+
             .product-box-text {
                 font-size: 14px;
                 color: #fff;

@@ -282,6 +282,10 @@ header.hero {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  margin: 0 20px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .product-container .card-list .card-item .product-box {
