@@ -265,6 +265,10 @@ main .shop-container .filter {
   font-size: 14px;
 }
 
+main .shop-container .filter:hover {
+  color: #d63b37;
+}
+
 main .shop-container .filter span {
   cursor: pointer;
 }
