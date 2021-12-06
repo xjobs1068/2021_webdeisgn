@@ -500,6 +500,13 @@ main {
     }
 }
 
+.banner-btn{
+    transition: transform 0.5s;
+    &:hover{
+        transform: translateY(-5px);
+    }
+}
+
 @keyframes dash-loader {
     0% {
         fill: transparent;
