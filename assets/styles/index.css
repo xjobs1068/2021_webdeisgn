@@ -314,7 +314,7 @@ main > section[class$="-container"] .card-list .card-item:hover {
           transform: translateY(-5px);
 }
 
-main > section[class$="-container"] .card-list .card-item .product-box-top {
+main > section[class$="-container"] .card-list .product-box-top {
   width: 100%;
   padding: 20px 20px 0;
   -webkit-box-sizing: border-box;
@@ -325,7 +325,7 @@ main > section[class$="-container"] .card-list .card-item .product-box-top {
   z-index: 3;
 }
 
-main > section[class$="-container"] .card-list .card-item .product-box-heading {
+main > section[class$="-container"] .card-list .product-box-heading {
   font-size: 24px;
   font-weight: 700;
   color: #fff;
@@ -334,7 +334,7 @@ main > section[class$="-container"] .card-list .card-item .product-box-heading {
   margin: 0;
 }
 
-main > section[class$="-container"] .card-list .card-item .product-box-bottom {
+main > section[class$="-container"] .card-list .product-box-bottom {
   width: 100%;
   height: 60px;
   position: absolute;
@@ -346,7 +346,7 @@ main > section[class$="-container"] .card-list .card-item .product-box-bottom {
   overflow: hidden;
 }
 
-main > section[class$="-container"] .card-list .card-item .product-box-bottom-inr {
+main > section[class$="-container"] .card-list .product-box-bottom-inr {
   height: 60px;
   position: relative;
   display: -webkit-box;
@@ -361,11 +361,11 @@ main > section[class$="-container"] .card-list .card-item .product-box-bottom-in
           justify-content: space-between;
 }
 
-main > section[class$="-container"] .card-list .card-item .product-box {
+main > section[class$="-container"] .card-list .product-box {
   display: contents;
 }
 
-main > section[class$="-container"] .card-list .card-item .product-box-text {
+main > section[class$="-container"] .card-list .product-box-text {
   font-size: 14px;
   color: #fff;
   line-height: 1.6;
@@ -374,7 +374,7 @@ main > section[class$="-container"] .card-list .card-item .product-box-text {
   text-align: left;
 }
 
-main > section[class$="-container"] .card-list .card-item i.fas.fa-arrow-circle-right {
+main > section[class$="-container"] .card-list i.fas.fa-arrow-circle-right {
   color: white;
   text-align: right;
   font-size: 24px;
