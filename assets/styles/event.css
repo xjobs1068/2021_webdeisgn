@@ -364,6 +364,7 @@ main.detail-container > .wrapper .content img:last-child {
 main.detail-container > .wrapper .content img {
   display: block;
   max-width: 100%;
+  margin: 0 auto;
 }
 
 main.detail-container > .wrapper .navigator {
